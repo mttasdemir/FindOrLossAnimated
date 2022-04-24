@@ -1,0 +1,638 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D55D65F279BFE7E007035EC /* MyFindOrLoss001App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D65E279BFE7E007035EC /* MyFindOrLoss001App.swift */; };
+		0D55D661279BFE7E007035EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D660279BFE7E007035EC /* ContentView.swift */; };
+		0D55D663279BFE7E007035EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D55D662279BFE7E007035EC /* Assets.xcassets */; };
+		0D55D666279BFE7E007035EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0D55D665279BFE7E007035EC /* Preview Assets.xcassets */; };
+		0D55D670279BFE7E007035EC /* MyFindOrLoss001Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D66F279BFE7E007035EC /* MyFindOrLoss001Tests.swift */; };
+		0D55D67A279BFE7E007035EC /* MyFindOrLoss001UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D679279BFE7E007035EC /* MyFindOrLoss001UITests.swift */; };
+		0D55D67C279BFE7E007035EC /* MyFindOrLoss001UITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D67B279BFE7E007035EC /* MyFindOrLoss001UITestsLaunchTests.swift */; };
+		0D55D689279BFECE007035EC /* ImagePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D688279BFECE007035EC /* ImagePublisher.swift */; };
+		0D55D68B279C050D007035EC /* GeneralError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D68A279C050D007035EC /* GeneralError.swift */; };
+		0D55D68D279C08CE007035EC /* JSONStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D68C279C08CE007035EC /* JSONStruct.swift */; };
+		0D55D68F279C12E3007035EC /* FindOrLossController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D55D68E279C12E3007035EC /* FindOrLossController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0D55D66C279BFE7E007035EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D55D653279BFE7D007035EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D55D65A279BFE7E007035EC;
+			remoteInfo = MyFindOrLoss001;
+		};
+		0D55D676279BFE7E007035EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0D55D653279BFE7D007035EC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0D55D65A279BFE7E007035EC;
+			remoteInfo = MyFindOrLoss001;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0D55D65B279BFE7E007035EC /* MyFindOrLoss001.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyFindOrLoss001.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D55D65E279BFE7E007035EC /* MyFindOrLoss001App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFindOrLoss001App.swift; sourceTree = "<group>"; };
+		0D55D660279BFE7E007035EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0D55D662279BFE7E007035EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0D55D665279BFE7E007035EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0D55D66B279BFE7E007035EC /* MyFindOrLoss001Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFindOrLoss001Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D55D66F279BFE7E007035EC /* MyFindOrLoss001Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFindOrLoss001Tests.swift; sourceTree = "<group>"; };
+		0D55D675279BFE7E007035EC /* MyFindOrLoss001UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyFindOrLoss001UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D55D679279BFE7E007035EC /* MyFindOrLoss001UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFindOrLoss001UITests.swift; sourceTree = "<group>"; };
+		0D55D67B279BFE7E007035EC /* MyFindOrLoss001UITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyFindOrLoss001UITestsLaunchTests.swift; sourceTree = "<group>"; };
+		0D55D688279BFECE007035EC /* ImagePublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePublisher.swift; sourceTree = "<group>"; };
+		0D55D68A279C050D007035EC /* GeneralError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeneralError.swift; sourceTree = "<group>"; };
+		0D55D68C279C08CE007035EC /* JSONStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONStruct.swift; sourceTree = "<group>"; };
+		0D55D68E279C12E3007035EC /* FindOrLossController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindOrLossController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D55D658279BFE7E007035EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D55D668279BFE7E007035EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D55D672279BFE7E007035EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D55D652279BFE7D007035EC = {
+			isa = PBXGroup;
+			children = (
+				0D55D65D279BFE7E007035EC /* MyFindOrLoss001 */,
+				0D55D66E279BFE7E007035EC /* MyFindOrLoss001Tests */,
+				0D55D678279BFE7E007035EC /* MyFindOrLoss001UITests */,
+				0D55D65C279BFE7E007035EC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D55D65C279BFE7E007035EC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D55D65B279BFE7E007035EC /* MyFindOrLoss001.app */,
+				0D55D66B279BFE7E007035EC /* MyFindOrLoss001Tests.xctest */,
+				0D55D675279BFE7E007035EC /* MyFindOrLoss001UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D55D65D279BFE7E007035EC /* MyFindOrLoss001 */ = {
+			isa = PBXGroup;
+			children = (
+				0D55D65E279BFE7E007035EC /* MyFindOrLoss001App.swift */,
+				0D55D660279BFE7E007035EC /* ContentView.swift */,
+				0D55D662279BFE7E007035EC /* Assets.xcassets */,
+				0D55D664279BFE7E007035EC /* Preview Content */,
+				0D55D688279BFECE007035EC /* ImagePublisher.swift */,
+				0D55D68A279C050D007035EC /* GeneralError.swift */,
+				0D55D68C279C08CE007035EC /* JSONStruct.swift */,
+				0D55D68E279C12E3007035EC /* FindOrLossController.swift */,
+			);
+			path = MyFindOrLoss001;
+			sourceTree = "<group>";
+		};
+		0D55D664279BFE7E007035EC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0D55D665279BFE7E007035EC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0D55D66E279BFE7E007035EC /* MyFindOrLoss001Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0D55D66F279BFE7E007035EC /* MyFindOrLoss001Tests.swift */,
+			);
+			path = MyFindOrLoss001Tests;
+			sourceTree = "<group>";
+		};
+		0D55D678279BFE7E007035EC /* MyFindOrLoss001UITests */ = {
+			isa = PBXGroup;
+			children = (
+				0D55D679279BFE7E007035EC /* MyFindOrLoss001UITests.swift */,
+				0D55D67B279BFE7E007035EC /* MyFindOrLoss001UITestsLaunchTests.swift */,
+			);
+			path = MyFindOrLoss001UITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D55D65A279BFE7E007035EC /* MyFindOrLoss001 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D55D67F279BFE7E007035EC /* Build configuration list for PBXNativeTarget "MyFindOrLoss001" */;
+			buildPhases = (
+				0D55D657279BFE7E007035EC /* Sources */,
+				0D55D658279BFE7E007035EC /* Frameworks */,
+				0D55D659279BFE7E007035EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MyFindOrLoss001;
+			productName = MyFindOrLoss001;
+			productReference = 0D55D65B279BFE7E007035EC /* MyFindOrLoss001.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0D55D66A279BFE7E007035EC /* MyFindOrLoss001Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D55D682279BFE7E007035EC /* Build configuration list for PBXNativeTarget "MyFindOrLoss001Tests" */;
+			buildPhases = (
+				0D55D667279BFE7E007035EC /* Sources */,
+				0D55D668279BFE7E007035EC /* Frameworks */,
+				0D55D669279BFE7E007035EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D55D66D279BFE7E007035EC /* PBXTargetDependency */,
+			);
+			name = MyFindOrLoss001Tests;
+			productName = MyFindOrLoss001Tests;
+			productReference = 0D55D66B279BFE7E007035EC /* MyFindOrLoss001Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0D55D674279BFE7E007035EC /* MyFindOrLoss001UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D55D685279BFE7E007035EC /* Build configuration list for PBXNativeTarget "MyFindOrLoss001UITests" */;
+			buildPhases = (
+				0D55D671279BFE7E007035EC /* Sources */,
+				0D55D672279BFE7E007035EC /* Frameworks */,
+				0D55D673279BFE7E007035EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0D55D677279BFE7E007035EC /* PBXTargetDependency */,
+			);
+			name = MyFindOrLoss001UITests;
+			productName = MyFindOrLoss001UITests;
+			productReference = 0D55D675279BFE7E007035EC /* MyFindOrLoss001UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D55D653279BFE7D007035EC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					0D55D65A279BFE7E007035EC = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					0D55D66A279BFE7E007035EC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0D55D65A279BFE7E007035EC;
+					};
+					0D55D674279BFE7E007035EC = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 0D55D65A279BFE7E007035EC;
+					};
+				};
+			};
+			buildConfigurationList = 0D55D656279BFE7D007035EC /* Build configuration list for PBXProject "MyFindOrLoss001" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0D55D652279BFE7D007035EC;
+			productRefGroup = 0D55D65C279BFE7E007035EC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D55D65A279BFE7E007035EC /* MyFindOrLoss001 */,
+				0D55D66A279BFE7E007035EC /* MyFindOrLoss001Tests */,
+				0D55D674279BFE7E007035EC /* MyFindOrLoss001UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D55D659279BFE7E007035EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D55D666279BFE7E007035EC /* Preview Assets.xcassets in Resources */,
+				0D55D663279BFE7E007035EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D55D669279BFE7E007035EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D55D673279BFE7E007035EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D55D657279BFE7E007035EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D55D68D279C08CE007035EC /* JSONStruct.swift in Sources */,
+				0D55D661279BFE7E007035EC /* ContentView.swift in Sources */,
+				0D55D68B279C050D007035EC /* GeneralError.swift in Sources */,
+				0D55D689279BFECE007035EC /* ImagePublisher.swift in Sources */,
+				0D55D68F279C12E3007035EC /* FindOrLossController.swift in Sources */,
+				0D55D65F279BFE7E007035EC /* MyFindOrLoss001App.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D55D667279BFE7E007035EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D55D670279BFE7E007035EC /* MyFindOrLoss001Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0D55D671279BFE7E007035EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D55D67A279BFE7E007035EC /* MyFindOrLoss001UITests.swift in Sources */,
+				0D55D67C279BFE7E007035EC /* MyFindOrLoss001UITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0D55D66D279BFE7E007035EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D55D65A279BFE7E007035EC /* MyFindOrLoss001 */;
+			targetProxy = 0D55D66C279BFE7E007035EC /* PBXContainerItemProxy */;
+		};
+		0D55D677279BFE7E007035EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0D55D65A279BFE7E007035EC /* MyFindOrLoss001 */;
+			targetProxy = 0D55D676279BFE7E007035EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0D55D67D279BFE7E007035EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D55D67E279BFE7E007035EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0D55D680279BFE7E007035EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFindOrLoss001/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S3M2US2NF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.tasdemir.app.test.MyFindOrLoss001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0D55D681279BFE7E007035EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MyFindOrLoss001/Preview Content\"";
+				DEVELOPMENT_TEAM = 3S3M2US2NF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.tasdemir.app.test.MyFindOrLoss001;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0D55D683279BFE7E007035EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.tasdemir.app.test.MyFindOrLoss001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFindOrLoss001.app/MyFindOrLoss001";
+			};
+			name = Debug;
+		};
+		0D55D684279BFE7E007035EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3S3M2US2NF;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.tasdemir.app.test.MyFindOrLoss001Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MyFindOrLoss001.app/MyFindOrLoss001";
+			};
+			name = Release;
+		};
+		0D55D686279BFE7E007035EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.tasdemir.app.test.MyFindOrLoss001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFindOrLoss001;
+			};
+			name = Debug;
+		};
+		0D55D687279BFE7E007035EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = tr.tasdemir.app.test.MyFindOrLoss001UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MyFindOrLoss001;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D55D656279BFE7D007035EC /* Build configuration list for PBXProject "MyFindOrLoss001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D55D67D279BFE7E007035EC /* Debug */,
+				0D55D67E279BFE7E007035EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D55D67F279BFE7E007035EC /* Build configuration list for PBXNativeTarget "MyFindOrLoss001" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D55D680279BFE7E007035EC /* Debug */,
+				0D55D681279BFE7E007035EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D55D682279BFE7E007035EC /* Build configuration list for PBXNativeTarget "MyFindOrLoss001Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D55D683279BFE7E007035EC /* Debug */,
+				0D55D684279BFE7E007035EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D55D685279BFE7E007035EC /* Build configuration list for PBXNativeTarget "MyFindOrLoss001UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D55D686279BFE7E007035EC /* Debug */,
+				0D55D687279BFE7E007035EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D55D653279BFE7D007035EC /* Project object */;
+}
